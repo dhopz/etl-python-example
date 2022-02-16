@@ -7,3 +7,14 @@ CREATE TABLE ppr_raw_all (
     price VARCHAR ( 55 ) NOT NULL,
     description VARCHAR ( 55 ) NOT NULL
 );
+
+CREATE TABLE ppr_clean_all (
+	id serial PRIMARY KEY,
+	date_of_sale VARCHAR ( 55 ) NOT NULL,
+	address VARCHAR ( 255 ) NOT NULL,
+	postal_code VARCHAR ( 55 ) NOT NULL,
+	county VARCHAR ( 55 ) NOT NULL,
+    price VARCHAR ( 55 ) NOT NULL,
+    description VARCHAR ( 55 ) NOT NULL
+);
+
